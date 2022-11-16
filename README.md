@@ -3,10 +3,13 @@
 
 2 - Results
 - Data Preprocessing
+
   a. The target of the model is the is_successful data point.  This indicates if the campaign was successful or not.
   b. Variables - Application_type, affiliation, classification, use_case, organization, status, income_amt, special_considerations, ask_amt
   c. Variables removed - EIN and Name
+  
 - Compiling, Training, and Evaluating the Model
+
   a. through optimization - 22 nodes and 5 layers was determined to be the best setup for the optimization
   b. model performance was 73.22% which is on the low side of acceptability
   c. in order to increase the model performance different numbers of neaurons and layers were used to determine performance.
